@@ -15,7 +15,7 @@ from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import CountVectorizer
 
 path = os.path.dirname(os.path.abspath(__file__))
-stopwords_path = os.path.join((path, 'data','stopwords.txt'))
+stopwords_path = os.path.join(str(path), 'data','stopwords.txt')
 
 def _get_word_counts(x):
     word_counts = len(str(x).split())
