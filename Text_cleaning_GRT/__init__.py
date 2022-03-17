@@ -18,10 +18,10 @@ def get_urls(x):
 	return utils._get_urls(x)	
 
 def remove_urls(x):
-	return utils._remove_urls(x):
+	return utils._remove_urls(x)
 	
 def remove_special_chars(x):
-	return utils._remove_special_chars(x):		
+	return utils._remove_special_chars(x)		
 
 def remove_html_tags(x):
 	return utils._remove_html_tags(x)
