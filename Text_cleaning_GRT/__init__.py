@@ -3,10 +3,10 @@ from Text_cleaning_GRT import utils
 ___version___ = '0.0.1'
 
 def get_wordcounts(x):
-	return utils._get_wordcounts(x)
+	return utils._get_word_counts(x)
 
 def get_charcounts(x):
-	return utils._get_charcounts(x)
+	return utils._get_char_counts(x)
 
 def get_avg_wordlength(x):
 	return utils._get_avg_wordlength(x)
