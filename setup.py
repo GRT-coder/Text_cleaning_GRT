@@ -5,6 +5,7 @@ with open('README.md', 'r') as file:
 
 setuptools.setup(
 	name = 'Text_cleaning_GRT',
+	include_package_data=True,
 	version = '0.0.1',
 	author = 'Guadalupe Rivera-Torruco',
 	author_email = 'GRT-coder@gmail.com',
